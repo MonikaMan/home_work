@@ -1,5 +1,5 @@
-let a = 1;
-const b ='abc';
+let ab = 1;
+const bcd ='abc';
 var c = 'gfh';
 
 let d = 2; // цю змінну можна міняти
@@ -37,7 +37,7 @@ typeof car
 'object'
 
 console.log(car)
-VM359:1 {model: 'opel', color: 'blue', age: 20}
+  {model; 'opel', color; 'blue', age; 20 };
 undefined
 
 //8 значення типу Array яке буде містити хоча б 3 значення.
@@ -95,25 +95,24 @@ undefined
 const location1 ={city:'Solotvino',country:'Ukraine'};
 undefined
 user
-{name: 'Monika', lastname: 'Man', age: 28}
+{name: 'Monika', lastname; 'Man', age; 28}
 location1
-{city: 'Solotvino', country: 'Ukraine'}
+{city: 'Solotvino', country; 'Ukraine'}
 user.age
 28
 user.location1
 undefined
 user.location=location1;
-{city: 'Solotvino', country: 'Ukraine'}
-city: "Solotvino"country: "Ukraine"
-[[Prototype]]: Object
+{city: 'Solotvino', country ; 'Ukraine'}
+
 user
-{name: 'Monika', lastname: 'Man', age: 28, location: {…}}
+{name: 'Monika', lastname ; 'Man', age; 28, location; {}}
 age: 28 
 lastname: "Man"
-location: {city: 'Solotvino', country: 'Ukraine'}
+location: {city: 'Solotvino', country; 'Ukraine'}
 name: "Monika"
-[[Prototype]]: Object
+[[Prototype]]; Object
 user['location']
-{city: 'Solotvino', country: 'Ukraine'}
+{city: 'Solotvino', country; 'Ukraine'}
 user['lastname']
 'Man'
